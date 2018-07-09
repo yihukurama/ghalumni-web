@@ -45,6 +45,11 @@ const createConditon = {
   //配置创建框
   createData: [
     [{
+      title: '网点id',
+      dataIndex: 'id',
+      type: 'string'
+    }],
+    [{
       relateId: 'orgId',
       modelName: 'Organization',
       key: 'text',

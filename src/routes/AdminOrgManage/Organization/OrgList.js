@@ -45,6 +45,11 @@ const createConditon = {
   //配置创建框
   createData: [
     [{
+      title: '机构id',
+      dataIndex: 'id',
+      type: 'string'
+    }],
+    [{
       title: '机构名称',
       dataIndex: 'text',
       type: 'string',
